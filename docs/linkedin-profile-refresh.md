@@ -23,6 +23,12 @@ I also explore AI-assisted quality workflows and AI animation. That creative sid
 - GitHub Portfolio: https://github.com/wisePaulo/qa-automation-showcase
 - Live Showcase: https://wisepaulo.github.io/qa-automation-showcase/
 
+## Contact Info
+
+- Email: paulosince88@icloud.com
+- Phone / WhatsApp: +351 937 778 258
+- WhatsApp direct link: https://wa.me/351937778258
+
 ## Experience Summary Bullets
 
 - Build and maintain automated test coverage for frontend, backend and API workflows.
@@ -38,4 +44,3 @@ I also explore AI-assisted quality workflows and AI animation. That creative sid
 
 Public QA Automation Showcase  
 Portfolio project with public-safe QA automation case studies, manual test evidence, BDD examples, Rest Assured API sample, privacy notes and AI animation work. Built to show QA thinking without exposing private employer data.
-

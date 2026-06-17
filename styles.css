@@ -322,6 +322,15 @@ a {
   line-height: 1.75;
 }
 
+.contact-detail {
+  margin-top: 14px;
+  font-weight: 750;
+}
+
+.contact-detail a {
+  color: var(--blue);
+}
+
 .filter-tabs {
   display: flex;
   flex-wrap: wrap;
