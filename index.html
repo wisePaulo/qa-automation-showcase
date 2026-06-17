@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Paulo Roberto Rogerio - QA Automation Engineer portfolio, public-safe case studies, API validation, BDD, test evidence and AI animation work."
+    >
+    <title>Paulo Roberto Rogerio | QA Automation Showcase</title>
+    <link rel="icon" href="assets/qa-lab-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Paulo Roberto Rogerio home">
+        <img src="assets/qa-lab-mark.svg" alt="" width="32" height="32">
+        <span>Paulo QA Lab</span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#work">Work</a>
+        <a href="#systems">Systems</a>
+        <a href="#ai">AI Motion</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Quality Assurance Engineer in Braga, Portugal</p>
+            <h1 id="hero-title">Paulo Roberto Rogerio</h1>
+            <p class="hero-lede">
+              I build reliable test systems for web, API and backend workflows: Playwright,
+              Cypress, Selenium, Java, TypeScript, Python, Rest Assured, Cucumber and SQL.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-action" href="https://github.com/wisePaulo">View GitHub</a>
+              <a class="secondary-action" href="https://linkedin.com/in/rogeriopaulo88">LinkedIn</a>
+            </div>
+          </div>
+
+          <aside class="terminal-panel" aria-label="QA automation snapshot">
+            <div class="terminal-topbar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="prompt">$</span> run qa:public-showcase</p>
+              <p class="typed-line" id="typed-line">loading test strategy...</p>
+              <ul class="pipeline-list" aria-label="Automation pipeline stages">
+                <li><span>01</span> Requirements mapped</li>
+                <li><span>02</span> BDD scenarios ready</li>
+                <li><span>03</span> API contracts validated</li>
+                <li><span>04</span> Evidence exported</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="metrics-band" aria-label="Profile highlights">
+        <div>
+          <strong data-count="4">0</strong>
+          <span>automation stacks</span>
+        </div>
+        <div>
+          <strong data-count="7">0</strong>
+          <span>QA domains</span>
+        </div>
+        <div>
+          <strong data-count="100">0</strong>
+          <span>public-safe focus</span>
+        </div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected public-safe work</p>
+          <h2 id="work-title">Scenes From The QA Floor</h2>
+          <p>
+            These are representative case studies based on transferable skills. They avoid private
+            repositories, real endpoints, customer data and employer-specific implementation details.
+          </p>
+        </div>
+
+        <div class="filter-tabs" role="tablist" aria-label="Project filters">
+          <button class="filter-tab is-active" type="button" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-tab" type="button" data-filter="automation" role="tab" aria-selected="false">Automation</button>
+          <button class="filter-tab" type="button" data-filter="api" role="tab" aria-selected="false">API</button>
+          <button class="filter-tab" type="button" data-filter="ai" role="tab" aria-selected="false">AI</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-type="automation">
+            <div class="card-kicker">Playwright + Cucumber</div>
+            <h3>End-to-End Automation Framework</h3>
+            <p>
+              BDD scenarios, reusable page objects, evidence capture, trace review and stable
+              selectors for business-critical web journeys.
+            </p>
+            <a href="docs/case-study-qa-automation.md">Read case study</a>
+          </article>
+
+          <article class="project-card" data-type="api">
+            <div class="card-kicker">Java + Rest Assured</div>
+            <h3>API Validation Suite</h3>
+            <p>
+              Public-demo contract checks for status codes, response shape, latency budget,
+              business rules and SQL-backed validation notes.
+            </p>
+            <a href="examples/rest-assured-public-api-example.java">View sample</a>
+          </article>
+
+          <article class="project-card" data-type="automation">
+            <div class="card-kicker">QA Strategy</div>
+            <h3>Evidence-First Test Planning</h3>
+            <p>
+              Prioritized smoke, regression and exploratory layers with practical reporting for
+              defect tracking, root cause analysis and release confidence.
+            </p>
+            <a href="examples/test-strategy-template.md">Open template</a>
+          </article>
+
+          <article class="project-card" data-type="ai">
+            <div class="card-kicker">AI Creative Lab</div>
+            <h3>AI Animation Direction</h3>
+            <p>
+              Short-form animation experiments using prompt direction, timing, character intent
+              and scene polish for friendly cinematic visuals.
+            </p>
+            <a href="docs/ai-animation-lab.md">Explore notes</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="system-section" id="systems" aria-labelledby="systems-title">
+        <div class="system-copy">
+          <p class="eyebrow">How I think about quality</p>
+          <h2 id="systems-title">From Requirement To Signal</h2>
+          <p>
+            The goal is not more tests. The goal is cleaner feedback: fast enough for developers,
+            deep enough for product confidence and readable enough for decisions.
+          </p>
+        </div>
+
+        <div class="signal-map" aria-label="QA signal flow">
+          <div class="signal-step">
+            <span>1</span>
+            <h3>Analyze</h3>
+            <p>Requirements, edge cases, risk and acceptance criteria.</p>
+          </div>
+          <div class="signal-step">
+            <span>2</span>
+            <h3>Automate</h3>
+            <p>Stable BDD flows, API checks and focused regression layers.</p>
+          </div>
+          <div class="signal-step">
+            <span>3</span>
+            <h3>Validate</h3>
+            <p>Evidence, reports, data checks and clear failure analysis.</p>
+          </div>
+          <div class="signal-step">
+            <span>4</span>
+            <h3>Improve</h3>
+            <p>Refactor suites, remove noise and document repeatable patterns.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ai-section" id="ai" aria-labelledby="ai-title">
+        <div class="section-heading">
+          <p class="eyebrow">AI motion and creative direction</p>
+          <h2 id="ai-title">QA Mindset, Cinematic Timing</h2>
+          <p>
+            I also explore AI animation: short cinematic scenes, child-friendly characters,
+            prompt iteration, consistency checks and final presentation polish.
+          </p>
+        </div>
+
+        <div class="motion-stage" aria-label="Animated AI motion scene">
+          <div class="film-strip">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="motion-character" aria-hidden="true">
+            <div class="character-head"></div>
+            <div class="character-body"></div>
+            <div class="character-shadow"></div>
+          </div>
+          <div class="motion-copy">
+            <h3>Five-second scene craft</h3>
+            <p>
+              Character mood, camera beat, lighting cue, motion intent and export checks, treated
+              with the same iteration discipline I use in QA.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timeline-section" aria-labelledby="timeline-title">
+        <div class="section-heading">
+          <p class="eyebrow">Experience arc</p>
+          <h2 id="timeline-title">Quality, Data And Systems</h2>
+        </div>
+
+        <ol class="timeline">
+          <li>
+            <time>2026 - Present</time>
+            <strong>QA engineering in travel technology</strong>
+            <span>Automation for frontend/backend workflows, BDD, API validation and reporting.</span>
+          </li>
+          <li>
+            <time>2025 - 2026</time>
+            <strong>Quality assurance analysis</strong>
+            <span>Web/mobile testing, Jira/Xray, Postman, SQL checks and regression planning.</span>
+          </li>
+          <li>
+            <time>2024 - 2025</time>
+            <strong>QA tester and AI data quality</strong>
+            <span>Test planning, AI response review, consistency checks and automation support.</span>
+          </li>
+          <li>
+            <time>2023 - 2024</time>
+            <strong>Automation and manual QA</strong>
+            <span>Java, Python, Selenium, XML validation, database checks and documentation.</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Public links</p>
+          <h2 id="contact-title">Let's Build Reliable Things</h2>
+          <p>
+            Open to QA automation, API testing, BDD workflows, test strategy and AI-assisted
+            quality practices.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="primary-action" href="https://github.com/wisePaulo">GitHub</a>
+          <a class="secondary-action" href="https://linkedin.com/in/rogeriopaulo88">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Paulo Roberto Rogerio</span>
+      <a href="docs/privacy-notes.md">Privacy notes</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

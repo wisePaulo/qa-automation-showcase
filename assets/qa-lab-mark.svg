@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Paulo QA Lab mark">
+  <rect width="96" height="96" rx="18" fill="#171a20"/>
+  <path d="M22 56c0-18 12-31 29-31 10 0 18 4 24 11l-9 8c-4-5-9-7-15-7-10 0-17 8-17 19s7 19 17 19c6 0 11-2 15-7l9 8c-6 7-14 11-24 11-17 0-29-13-29-31Z" fill="#f4a261"/>
+  <path d="M22 77 75 24" stroke="#0f8b8d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="28" cy="25" r="7" fill="#4c956c"/>
+  <circle cx="72" cy="73" r="7" fill="#e76f51"/>
+</svg>
+

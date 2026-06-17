@@ -1,0 +1,26 @@
+name: Static check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify required files
+        run: |
+          test -f index.html
+          test -f styles.css
+          test -f script.js
+          test -f docs/privacy-notes.md
+
+      - name: Check for obvious private placeholders
+        run: |
+          ! grep -RInE "(PASSWORD|TOKEN|SECRET|API_KEY|APIKEY)[[:space:]]*=" . \
+            --exclude-dir=.git \
+            --exclude=static-check.yml
