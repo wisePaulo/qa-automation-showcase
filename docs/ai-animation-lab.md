@@ -1,6 +1,6 @@
 # AI Animation Lab
 
-Alongside QA engineering, I explore AI-assisted animation and short cinematic scene creation.
+Alongside QA engineering, I create AI animation concepts and short cinematic scenes.
 
 ## Focus Areas
 
