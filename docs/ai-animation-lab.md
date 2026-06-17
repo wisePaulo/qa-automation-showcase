@@ -10,6 +10,11 @@ Alongside QA engineering, I explore AI-assisted animation and short cinematic sc
 - Iteration checks for consistency, timing, lighting and export quality.
 - Presentation polish for portfolio-ready demos.
 
+## Public Assets In This Showcase
+
+- `assets/ai-short-reel.mp4`: short AI motion experiment.
+- `assets/ai-character-sheet.png`: original child-friendly 3D character sheet with front, side, back, three-quarter and expression views.
+
 ## Public Asset Policy
 
 Only original or explicitly shareable assets should be committed here. Generated video files are intentionally ignored by `.gitignore` until each asset is reviewed for public use.
@@ -31,3 +36,4 @@ The same discipline applies to creative AI work:
 - Keep the best evidence.
 - Iterate with clear notes.
 
+This is the same mindset I use in testing: define the expected result, observe the output, document the gap and improve the next iteration.

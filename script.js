@@ -6,10 +6,10 @@ const tabs = document.querySelectorAll(".filter-tab");
 const cards = document.querySelectorAll(".project-card");
 
 const phrases = [
-  "mapping BDD scenarios...",
-  "validating API contracts...",
-  "capturing trace evidence...",
-  "turning failures into signal..."
+  "mapping risk, requirements and edge cases...",
+  "designing BDD and manual evidence...",
+  "validating API contracts and data rules...",
+  "turning failures into clear release signal..."
 ];
 
 let phraseIndex = 0;
@@ -148,4 +148,3 @@ window.addEventListener("resize", resizeCanvas);
 resizeCanvas();
 drawCanvas();
 typeLoop();
-

@@ -8,7 +8,7 @@ test-results/
 .env.*
 *.log
 *.mp4
+!assets/ai-short-reel.mp4
 *.mov
 *.webm
 *.pdf
-

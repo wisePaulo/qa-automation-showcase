@@ -20,6 +20,7 @@
       <nav class="nav-links" aria-label="Sections">
         <a href="#work">Work</a>
         <a href="#systems">Systems</a>
+        <a href="#evidence">Evidence</a>
         <a href="#ai">AI Motion</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -30,11 +31,16 @@
         <canvas id="hero-canvas" aria-hidden="true"></canvas>
         <div class="hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">Quality Assurance Engineer in Braga, Portugal</p>
+            <p class="eyebrow">QA Automation Engineer in Braga, Portugal</p>
             <h1 id="hero-title">Paulo Roberto Rogerio</h1>
             <p class="hero-lede">
-              I build reliable test systems for web, API and backend workflows: Playwright,
-              Cypress, Selenium, Java, TypeScript, Python, Rest Assured, Cucumber and SQL.
+              I turn product risk into clear release signal: Playwright, Cypress, Selenium,
+              TypeScript, Java, Python, Rest Assured, Postman, SQL, Cucumber/BDD, Jira, Xray,
+              Allure and evidence-first QA.
+            </p>
+            <p class="hero-note">
+              Manual tester at the roots, automation-minded in the daily work, and curious enough
+              to bring AI into both quality practice and cinematic short-form creation.
             </p>
             <div class="hero-actions">
               <a class="primary-action" href="https://github.com/wisePaulo">View GitHub</a>
@@ -49,13 +55,13 @@
               <span></span>
             </div>
             <div class="terminal-body">
-              <p><span class="prompt">$</span> run qa:public-showcase</p>
+              <p><span class="prompt">$</span> run paulo:qa-public-showcase</p>
               <p class="typed-line" id="typed-line">loading test strategy...</p>
               <ul class="pipeline-list" aria-label="Automation pipeline stages">
-                <li><span>01</span> Requirements mapped</li>
-                <li><span>02</span> BDD scenarios ready</li>
-                <li><span>03</span> API contracts validated</li>
-                <li><span>04</span> Evidence exported</li>
+                <li><span>01</span> Requirements, risk and acceptance criteria mapped</li>
+                <li><span>02</span> BDD scenarios and manual coverage designed</li>
+                <li><span>03</span> API contracts and data rules validated</li>
+                <li><span>04</span> Evidence exported with human-readable context</li>
               </ul>
             </div>
           </aside>
@@ -68,8 +74,8 @@
           <span>automation stacks</span>
         </div>
         <div>
-          <strong data-count="7">0</strong>
-          <span>QA domains</span>
+          <strong data-count="9">0</strong>
+          <span>QA keywords covered</span>
         </div>
         <div>
           <strong data-count="100">0</strong>
@@ -82,8 +88,9 @@
           <p class="eyebrow">Selected public-safe work</p>
           <h2 id="work-title">Scenes From The QA Floor</h2>
           <p>
-            These are representative case studies based on transferable skills. They avoid private
-            repositories, real endpoints, customer data and employer-specific implementation details.
+            Public-safe scenes from the work I do: test design, automation, API validation,
+            bug investigation, evidence writing and practical delivery support. No private systems,
+            no company secrets, only transferable QA craft.
           </p>
         </div>
 
@@ -91,6 +98,7 @@
           <button class="filter-tab is-active" type="button" data-filter="all" role="tab" aria-selected="true">All</button>
           <button class="filter-tab" type="button" data-filter="automation" role="tab" aria-selected="false">Automation</button>
           <button class="filter-tab" type="button" data-filter="api" role="tab" aria-selected="false">API</button>
+          <button class="filter-tab" type="button" data-filter="manual" role="tab" aria-selected="false">Manual QA</button>
           <button class="filter-tab" type="button" data-filter="ai" role="tab" aria-selected="false">AI</button>
         </div>
 
@@ -115,22 +123,22 @@
             <a href="examples/rest-assured-public-api-example.java">View sample</a>
           </article>
 
-          <article class="project-card" data-type="automation">
-            <div class="card-kicker">QA Strategy</div>
-            <h3>Evidence-First Test Planning</h3>
+          <article class="project-card" data-type="manual">
+            <div class="card-kicker">Manual QA + Evidence</div>
+            <h3>Human Test Evidence Pack</h3>
             <p>
-              Prioritized smoke, regression and exploratory layers with practical reporting for
-              defect tracking, root cause analysis and release confidence.
+              Public manual test scenarios, bug report examples, exploratory notes, expected versus
+              actual analysis and release-risk language.
             </p>
-            <a href="examples/test-strategy-template.md">Open template</a>
+            <a href="docs/manual-test-evidence.md">Open evidence pack</a>
           </article>
 
           <article class="project-card" data-type="ai">
             <div class="card-kicker">AI Creative Lab</div>
             <h3>AI Animation Direction</h3>
             <p>
-              Short-form animation experiments using prompt direction, timing, character intent
-              and scene polish for friendly cinematic visuals.
+              Original child-friendly character work, short-form cinematic motion, prompt direction,
+              timing, consistency checks and visual polish.
             </p>
             <a href="docs/ai-animation-lab.md">Explore notes</a>
           </article>
@@ -142,8 +150,8 @@
           <p class="eyebrow">How I think about quality</p>
           <h2 id="systems-title">From Requirement To Signal</h2>
           <p>
-            The goal is not more tests. The goal is cleaner feedback: fast enough for developers,
-            deep enough for product confidence and readable enough for decisions.
+            The goal is not simply more tests. The goal is cleaner feedback: fast enough for
+            developers, deep enough for product confidence and readable enough for release decisions.
           </p>
         </div>
 
@@ -151,17 +159,17 @@
           <div class="signal-step">
             <span>1</span>
             <h3>Analyze</h3>
-            <p>Requirements, edge cases, risk and acceptance criteria.</p>
+            <p>Requirements, edge cases, risk, acceptance criteria and testability.</p>
           </div>
           <div class="signal-step">
             <span>2</span>
             <h3>Automate</h3>
-            <p>Stable BDD flows, API checks and focused regression layers.</p>
+            <p>Stable BDD flows, API checks, SQL validation notes and focused regression layers.</p>
           </div>
           <div class="signal-step">
             <span>3</span>
             <h3>Validate</h3>
-            <p>Evidence, reports, data checks and clear failure analysis.</p>
+            <p>Evidence, reports, screenshots, traces, response checks and clear failure analysis.</p>
           </div>
           <div class="signal-step">
             <span>4</span>
@@ -171,28 +179,56 @@
         </div>
       </section>
 
+      <section class="section evidence-section" id="evidence" aria-labelledby="evidence-title">
+        <div class="section-heading">
+          <p class="eyebrow">Manual testing with public evidence</p>
+          <h2 id="evidence-title">Evidence That A Team Can Actually Use</h2>
+          <p>
+            Manual QA still matters. I document expected behavior, actual behavior, environment,
+            impact, reproduction path, attachments, root-cause hints and retest notes so a defect
+            becomes easier to understand, prioritize and fix.
+          </p>
+        </div>
+
+        <div class="evidence-grid" aria-label="Manual QA evidence examples">
+          <article>
+            <span>Scenario</span>
+            <h3>Public checkout smoke</h3>
+            <p>Given/when/then coverage for a fictional storefront journey with clear release value.</p>
+          </article>
+          <article>
+            <span>Defect</span>
+            <h3>Actionable bug report</h3>
+            <p>Severity, priority, steps, expected result, actual result and retest outcome.</p>
+          </article>
+          <article>
+            <span>Risk</span>
+            <h3>Regression focus</h3>
+            <p>Business-critical paths, integrations, data validation and historical failure zones.</p>
+          </article>
+        </div>
+      </section>
+
       <section class="section ai-section" id="ai" aria-labelledby="ai-title">
         <div class="section-heading">
           <p class="eyebrow">AI motion and creative direction</p>
           <h2 id="ai-title">QA Mindset, Cinematic Timing</h2>
           <p>
-            I also explore AI animation: short cinematic scenes, child-friendly characters,
-            prompt iteration, consistency checks and final presentation polish.
+            I also create AI-assisted animation: original characters, short cinematic scenes,
+            prompt iteration, consistency checks, timing, lighting and final presentation polish.
           </p>
         </div>
 
         <div class="motion-stage" aria-label="Animated AI motion scene">
-          <div class="film-strip">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="motion-character" aria-hidden="true">
-            <div class="character-head"></div>
-            <div class="character-body"></div>
-            <div class="character-shadow"></div>
+          <div class="ai-media-stack">
+            <figure class="video-frame">
+              <video src="assets/ai-short-reel.mp4" autoplay muted loop playsinline controls></video>
+              <figcaption>Original AI short-form motion experiment.</figcaption>
+            </figure>
+            <figure class="character-sheet-frame">
+              <img src="assets/ai-character-sheet.png" alt="Original child-friendly 3D character sheet with front, side, back and expression views.">
+              <figcaption>Character sheet: expression, silhouette and consistency checks.</figcaption>
+            </figure>
           </div>
           <div class="motion-copy">
             <h3>Five-second scene craft</h3>
@@ -200,6 +236,7 @@
               Character mood, camera beat, lighting cue, motion intent and export checks, treated
               with the same iteration discipline I use in QA.
             </p>
+            <a href="docs/ai-animation-lab.md">Read the AI motion notes</a>
           </div>
         </div>
       </section>
@@ -239,8 +276,8 @@
           <p class="eyebrow">Public links</p>
           <h2 id="contact-title">Let's Build Reliable Things</h2>
           <p>
-            Open to QA automation, API testing, BDD workflows, test strategy and AI-assisted
-            quality practices.
+            Open to QA automation, API testing, manual testing, BDD workflows, test strategy,
+            evidence/reporting and AI-assisted quality practices.
           </p>
         </div>
         <div class="contact-actions">

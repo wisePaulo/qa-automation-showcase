@@ -21,6 +21,6 @@ jobs:
 
       - name: Check for obvious private placeholders
         run: |
-          ! grep -RInE "(PASSWORD|TOKEN|SECRET|API_KEY|APIKEY)[[:space:]]*=" . \
+          ! grep -RIn --binary-files=without-match -E "(PASSWORD|TOKEN|SECRET|API_KEY|APIKEY)[[:space:]]*=" . \
             --exclude-dir=.git \
             --exclude=static-check.yml
